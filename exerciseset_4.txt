@@ -1,0 +1,819 @@
+1: delete the last file you created
+cd Desktop - cd --> : change directory to enter the directory
+ls -ltr ; 
+ltr --> l- long listing, t- time, r- recursive
+To show long format list of all files, sorted by modification date (oldest first); prints long list in reverse order after sorted by timestamp
+Cd foldername 
+rm -f filename
+
+2: output hidden files
+Ls .*
+Ls -A ~
+
+3: open a file in the terminal and see the content
+Nano filename
+Cat filename
+
+4: create a directory honour and move into the directory
+Mkdir honour
+Cd honour
+
+5: create a file called recommend.txt and immediately delete it
+Touch 
+Rm recommend.txt
+
+6: delete the last folder you created
+Rmdir name
+
+7: move one level up
+Cd ..
+
+8: output hidden files
+Ls -A ~ / ls -la / ls.*
+
+9: output the full path you are on
+Pwd - print working directory
+
+10: output the sizes of the files in the directory
+du -sh /Desktop - du --> disk usage
+S --> total size
+H --> prints size in human-readable format
+
+11: write something in a file called terminal.txt
+Echo "text" >> terminal.txt 
+ 
+12: output the content of any file in the directory
+Cat filename
+
+13: move two folders up
+Cd ../..
+
+14: create two directories bay and pen and move into pen
+Mkdir bay pen
+Cd pen/
+
+15: delete the last file you created
+Rmdir filename
+
+16: output the full path you are on
+Pwd 
+
+17: move two folders up
+Cd ../..
+
+18: if there are any directories in the folder then move inside any one of them
+Cd /directory name
+
+19: output what's in the directory
+Ls 
+
+20: output the full path you are on
+Pwd
+
+21: create a directory evaluate and move into the directory
+Cd filename
+
+22: echo 'regret recommend support needle excuse' into the file
+
+23: move one level up
+Cd ..
+
+24: if there are any directories in the folder then move inside any one of them
+Cd /directory name
+
+25: create a file called pioneer.txt
+Touch file name -> create an empty file
+
+26: delete the last file you created
+rm filename
+
+27: write something in a file called advice.txt
+Echo -> "something" > advice.txt
+ 
+28: output the content of any file in the directory
+Cat filename
+Nano filename
+
+29: create a directory regret and move into the directory
+Mkdir regret
+Cd regret
+
+30: output hidden files
+Ls -A ~
+
+31: move two folders up
+
+Cd ../..
+
+32: output hidden files
+Ls -A ~
+
+33: echo 'cater discover correspondence proportion recommend' into the file
+Echo 'text' > file name
+Cat filename
+
+34: move one level up
+Cd ..
+
+35: delete the last folder you created
+Rm -rf foldername 
+
+36: write something in a file called pen.txt
+Echo "text" >> pen.txt
+
+37: output who the active user is
+Echo $USER
+Who
+
+38: create a file called recommend.txt and rename it so that it's called terminal.txt instead. Hint: This should be done in 2 commands
+Touch cater.txt
+Mv cater.txt terminal.txt
+
+39: create a file called cater.txt and rename it so that it's called terminal.txt instead. Hint: This should be done in 2 commands
+Touch cater.txt
+Mv cater.txt terminal.txt
+
+40: output who the active user is
+Echo $USER
+Who
+
+41: create a file called speculate.txt and immediately delete it
+Touch speculate.txt
+Rm speculate.txt
+
+42: echo 'cater advantage excuse pen speculate' into the file
+Echo 'text' > filename
+
+43: create a file called bay.txt and rename it so that it's called recession.txt instead. Hint: This should be done in 2 commands
+Touch bay.txt
+Mv bay.txt recession.txt
+
+44: output the full path you are on
+Pwd
+
+45: create a file called bay.txt. Put the text 'recommend discover hill shot recommend' in it and copy it so there is also a proportion.txt with same content
+Echo "text" >> bay.txt
+Touch proportion.txt
+Cp -v bay proportion
+
+46: create two directories abortion and nerve and move into nerve
+Mkdir abortion nerve
+Cd nerve
+
+47: move two folders up
+cd ../..
+
+48: delete the last file you created
+Rm filename
+
+49: output the content of any file in the directory
+Cat 
+
+50: output the full path you are on
+Pwd
+
+51: output the sizes of the files in the directory
+Ls -lh
+
+52: output the content of any file in the directory
+Cat
+Nano
+
+53: output who the active user is
+Echo $USER
+
+54: output hidden files
+Ls -A ~ / ls -la / ls.*
+
+55: output who the active user is
+Echo $USER
+
+56: echo 'hill needle needle stock medal' into the file
+Echo "hello" > file.txt
+
+57: move one level up
+Cd 
+
+58: move two folders up
+Cd ../..
+
+59: write something in a file called recession.txt
+echo 'my hello' > recession.txt
+
+60: create a file called salvation.txt
+Touch salvation.txt
+
+61: create a file called nerve.txt. Put the text 'rain on rider architecture discover' in it and copy it so there is also a sister.txt with same content
+Echo'' >> nerve.txt
+Mv panel.txt sister.txt
+
+62: if there are any directories in the folder then move inside any one of them
+Ls
+Cd filename 
+
+63: move one level up
+Cd ..
+
+64: output who the active user is
+Echo $USER
+
+65: create two directories advice and degree and move into degree
+Mkdir advice degree 
+Cd degree
+
+66: output the full path you are on
+Pwd --> Print working directory
+
+67: create two directories ditch and depression and move into depression
+Mkdir ditch depression 
+Cd depression
+
+68: open a file in the terminal and see the content
+Cat file.txt
+
+69: create two directories pray and shallow and move into shallow
+Mkdir pray shallow
+Cd shallow
+
+70: output who the active user is
+Echo $USER
+
+71: write something in a file called on.txt
+Echo "hello" >> on.txt
+
+72: create two directories panel and cousin and move into cousin
+Mkdir panel cousin
+Cd cousin
+
+73: output who the active user is
+Echo $USER	
+
+74: create a file called panel.txt and rename it so that it's called advice.txt instead. Hint: This should be done in 2 commands
+Touch panel.txt
+Mv panel.txt advice.txt
+
+75: output who the active user is
+Echo $USER
+
+76: create a file called plane.txt and rename it so that it's called advantage.txt instead. Hint: This should be done in 2 commands
+Touch plane.txt
+Mv plane.txt advantage.txt
+
+77: create a file called hill.txt. Put the text 'beat correspondence discover speculate terminal' in it and copy it so there is also a bay.txt with same content
+Touch hill.txt
+Cp -v hill.txt bay.txt
+
+78: create a file called nerve.txt. Put the text 'ditch identity nerve regret medal' in it and copy it so there is also a interference.txt with same content
+Touch nerve.txt interference.txt
+Cp -v nerve.txt interference.txt
+
+79: create a file called difficulty.txt and rename it so that it's called architecture.txt instead. Hint: This should be done in 2 commands
+Touch difficulty.txt
+Mv architecture.txt
+
+80: create two directories medal and pray and move into pray
+Mkdir medal pray
+Cd pray
+
+81: move one level up
+Cd ..
+
+82: create two directories rider and stock and move into stock
+Mkdir rider stock
+
+83: delete the last folder you created
+Rm -rf folder
+
+84: create a file called relative.txt. Put the text 'support shot cater evaluate shallow' in it and copy it so there is also a terminal.txt with same content
+Echo 'support shot cater evaluate shallow' >> relative.txt
+Cp -v relative.txt terminal.txt
+
+85: output the sizes of the files in the directory
+
+86: output the full path you are on
+Pwd
+
+87: create a file called stock.txt. Put the text 'stock pen shot advice depression' in it and copy it so there is also a medal.txt with same content
+Echo 'stock pen shot advice depression' >> stock.txt
+Cp -v medal.txt
+
+88: delete the last file you created
+Rm filename
+
+89: if there are any directories in the folder then move inside any one of them
+Cd directoryname
+
+90: create a directory responsibility and move into the directory
+Mkdir directory 
+Cd directory
+
+91: create a file called stock.txt. Put the text 'medal plane nerve cater degree' in it and copy it so there is also a advantage.txt with same content
+Echo 'stock pen shot advice depression' >> stock.txt
+Cp -v medal.txt
+
+92: move two folders up
+Cd ../..
+
+93: create a file called recommend.txt
+Touch recommend.txt
+
+94: create two directories responsibility and bay and move into bay
+Mkdir responsibility bay
+Cd bay
+
+95: move one level up
+Cd ..
+
+96: output what's in the directory
+Ls
+
+97: echo 'experienced shot speculate surprise shot' into the file
+Echo ' ' > filename.txt
+ 
+98: output who the active user is
+Echo $USER
+
+99: output hidden files
+Ls .*
+
+100: output the sizes of the files in the directory
+Du -sh
+
+101: output what's in the directory
+Ls
+
+102: echo 'shot needle recession pioneer experienced' into the file
+Echo '' > file.txt
+
+103: create a directory experienced and move into the directory
+Mkdir experienced
+Cd experienced
+
+104: output who the active user is
+Echo $USER
+
+105: output the sizes of the files in the directory
+Du -sh
+
+106: output hidden files
+Ls .*
+
+107: if there are any directories in the folder then move inside any one of them
+Cd filename
+
+108: if there are any directories in the folder then move inside any one of them
+Cd filename
+
+109: move two folders up
+Cd ../..
+
+110: if there are any directories in the folder then move inside any one of them
+
+111: output who the active user is
+Echo $USER
+
+112: output the full path you are on
+Pwd
+
+113: create a file called ethics.txt
+Touch ethics.txt
+
+114: output what's in the directory
+Ls 
+
+115: delete the last file you created
+rm filename
+
+116: create a file called terminal.txt
+Touch terminal.txt
+
+117: output the full path you are on
+Pwd 
+
+118: output what's in the directory
+Ls
+
+119: move one level up
+Cd ..
+
+120: output the sizes of the files in the directory
+
+121: if there are any directories in the folder then move inside any one of them
+Cd name
+
+122: output hidden files
+Ls .*
+
+123: move two folders up
+Cd ../..
+
+124: output who the active user is
+Echo $USER
+
+125: create a file called pray.txt and rename it so that it's called architecture.txt instead. Hint: This should be done in 2 commands
+Touch pray.txt 
+Cp -v pray.txt architecture.txt
+126: output who the active user is
+
+127: create a file called hill.txt. Put the text 'surprise on hill difficulty experienced' in it and copy it so there is also a excuse.txt with same content
+Echo 'surprise on hill difficulty experienced' >> hill.txt
+Touch excuse.txt
+Cp -v hill.txt excuse.txt
+
+128: delete the last folder you created
+Rmdir -f foldername
+
+129: if there are any directories in the folder then move inside any one of them
+Cd foldername
+
+130: create a file called ditch.txt and immediately delete it
+Touch ditch.txt
+
+131: output who the active user is
+Echo $USER
+
+132: move two folders up
+Cd ../..
+
+133: move one level up
+Cd ..
+
+134: if there are any directories in the folder then move inside any one of them
+Cd directoryname
+
+135: move two folders up
+Cd ../..
+
+136: create a file called recommend.txt
+Touch recommend.txt
+
+137: move one level up
+Cd ../..
+
+138: echo 'abortion cousin medal surprise sister' into the file
+Echo '' > file.txt
+
+139: create a file called advice.txt
+Touch advice.txt
+
+140: move one level up
+Cd ..
+
+141: create a file called appreciate.txt. Put the text 'rain identity abortion rider bay' in it and copy it so there is also a pray.txt with same content
+Echo '' >> appreciate.txt
+Touch pray.txt
+Cp -v appreciate.txt pray.txt
+
+142: output hidden files
+Ls .*
+
+143: output what's in the directory
+Ls
+
+144: output who the active user is
+Echo $USER	
+
+145: output who the active user is
+Echo $USER	
+
+146: create a file called advantage.txt and immediately delete it
+Touch advantage.txt
+Rm advantage
+
+147: create a directory banish and move into the directory
+Mkdir banish
+Cd banish
+
+148: output who the active user is
+Echo $USER
+
+149: output hidden files
+Ls .*	
+
+150: output hidden files
+Ls .*
+
+151: output the content of any file in the directory
+Nano filename
+Cat filename
+
+152: create two directories identity and relative and move into relative
+Mkdir 
+Cd 
+
+153: create two directories advice and panel and move into panel
+Mkdir 
+Cd 
+
+154: create a file called cater.txt and rename it so that it's called on.txt instead. Hint: This should be done in 2 commands
+Touch cater.txt
+Mv cater.txt on.txt
+
+155: echo 'excuse depression needle difficulty interference' into the file
+Echo '' > file.txt
+
+156: move one level up
+Cd ..
+
+157: if there are any directories in the folder then move inside any one of them
+Cd directoryname
+
+158: output the content of any file in the directory
+Cat filename
+Nano filename
+
+159: output the sizes of the files in the directory
+
+160: create a file called honor.txt. Put the text 'shallow architecture terminal support plane' in it and copy it so there is also a difficulty.txt with same content
+Echo '' >> honor
+Cp -v difficulty
+
+161: if there are any directories in the folder then move inside any one of them
+Cd 
+
+162: output the content of any file in the directory
+Cat filename
+
+163: create a file called rider.txt. Put the text 'excuse sister recession ethics surprise' in it and copy it so there is also a ethics.txt with same content
+Echo '' >> rider.txt
+Cp -v ethics.txt
+
+164: delete the last folder you created
+Rmdir -f name
+
+165: delete the last file you created
+Rm filename
+
+166: if there are any directories in the folder then move inside any one of them
+Ls
+Cd
+
+167: open a file in the terminal and see the content
+Cat filename
+Nano filename
+
+168: output the content of any file in the directory
+Ls
+
+169: output what's in the directory
+Ls
+
+170: create a directory ethics and move into the directory
+Mkdir
+Cd ethics
+
+171: create a file called proportion.txt
+Touch proportion.txt
+
+172: create a directory cousin and move into the directory
+Mkdir cousin
+Cd cousin
+
+173: if there are any directories in the folder then move inside any one of them
+Cd name
+
+174: create two directories interference and regret and move into regret
+Mkdir interference regret
+Cd regret 
+
+175: output the content of any file in the directory
+Cat filename
+
+176: create a file called beat.txt and immediately delete it
+Touch beat.txt
+Rm beat.txt
+
+177: echo 'rain speculate hill ditch on' into the file
+Echo '' > filename.
+
+178: output who the active user is
+Echo $USER
+
+179: write something in a file called correspondence.txt
+Echo '' >> correspondence.txt
+
+180: create a directory nerve and move into the directory
+Mkdir nerve
+Cd nerve
+
+181: create a file called appreciate.txt and immediately delete it
+Touch appreciate.txt
+Rm filename
+
+182: create two directories identity and needle and move into needle
+Mkdir
+Cd
+
+183: delete the last file you created
+Rm fileNAME
+
+184: delete the last folder you created
+Rmdir -foldername
+
+185: create two directories salvation and responsibility and move into responsibility
+Mkdir salvation responsibility
+Cd responsabilità
+
+186: output what's in the directory
+Ls 
+
+187: delete the last file you created
+Rm filename 
+
+188: output who the active user is
+Echo $USER
+
+189: echo 'proportion hill support medal shot' into the file
+Echo '' > filename
+
+190: delete the last file you created
+Rm filename
+
+191: output hidden files
+Ls .* / ls 
+
+192: output hidden files
+Ls .*
+
+193: create a file called plane.txt and immediately delete it
+Touch plane.txt
+Rm plane.txt
+
+194: create a file called regret.txt and immediately delete it
+Touch 
+Rm 
+
+195: create a file called excuse.txt
+Touch excuse.txt
+
+196: echo 'surprise difficulty degree sister bay' into the file
+Echo '' > filename.txt
+
+197: create a file called banish.txt and immediately delete it
+Touch
+Rm
+
+198: create a file called cater.txt and immediately delete it
+Touch cater.txt
+Rm cater.txt
+
+199: move two folders up
+Cd ../..
+
+200: write something in a file called experienced.txt
+Echo '' > experienced.txt 
+
+201: move two folders up
+Cd ../..
+
+202: output who the active user is
+Echo $USER
+203: create a file called depression.txt. Put the text 'panel regret surprise rain rider' in it and copy it so there is also a shot.txt with same content
+
+204: delete the last file you created
+Rm filename
+
+205: delete the last file you created
+Rm filename
+
+206: create a file called pray.txt and rename it so that it's called evaluate.txt instead. Hint: This should be done in 2 commands
+Touch pray.txt
+Cp -v evaluate.txt
+
+207: echo 'support plane rider honor salvation' into the file
+Echo '' > filename.txt 
+
+208: write something in a file called regret.txt
+Echo '' > regret.txt
+
+209: echo 'difficulty cousin experienced regret degree' into the file
+Echo '' > filename
+
+210: output the full path you are on
+Pwd
+
+211: echo 'excuse shot difficulty degree pray' into the file
+Echo '' > filename.txt
+
+212: write something in a file called speculate.txt
+Echo '' > speculate.txt
+
+213: create a directory degree and move into the directory
+Mkdir 
+Cd dirname
+
+214: move two folders up
+Cd ../..
+
+215: output the sizes of the files in the directory
+
+216: move two folders up
+Cd ../..
+
+217: output hidden files
+Ls .*
+
+218: create a file called surprise.txt and immediately delete it
+Touch surprise.txt
+Rm surprise.txt
+
+219: create two directories discover and salvation and move into salvation
+
+220: output the full path you are on
+Pwd 
+
+221: output hidden files
+Ls .*
+
+222: output hidden files
+Ls .*
+223: output the sizes of the files in the directory
+
+224: open a file in the terminal and see the content
+Cat filename
+
+225: create a file called rain.txt. Put the text 'sister stock stock banish proportion' in it and copy it so there is also a pioneer.txt with same content
+Echo 'sister stock stock banish proportion' >> rain.txt 
+Touch pioneer.txt
+Cp -v rain.txt pioneer.txt
+
+226: delete the last folder you created
+Rmdir -f
+
+227: open a file in the terminal and see the content
+Cat filename
+Nano filename
+
+228: write something in a file called rain.txt
+Echo "" > rain.txt
+
+229: create a file called correspondence.txt
+Touch correspondence.txt
+
+230: output who the active user is
+Echo $USER
+
+231: output the sizes of the files in the directory
+Du -h
+
+232: output the full path you are on
+Pwd 
+
+233: output hidden files
+Ls .* 
+
+234: create a file called discover.txt
+Touch discover.txt
+
+235: write something in a file called stock.txt
+Echo "hello" > stock.txt
+
+236: delete the last folder you created
+Rmdir -f
+
+237: move one level up
+Cd .. 
+
+238: create a file called banish.txt and rename it so that it's called recession.txt instead. Hint: This should be done in 2 commands
+Touch banish.txt
+Cp -v banish.txt recession.txt
+
+239: output the content of any file in the directory
+Cd filename
+
+240: open a file in the terminal and see the content
+Cat filename
+Nano filename
+
+241: output the sizes of the files in the directory
+Du -h
+
+242: output the full path you are on
+Pwd
+243: output who the active user is
+Echo $USER
+
+244: create a file called terminal.txt and immediately delete it
+Touch terminal.txt 
+Rm terminal.txt
+
+245: create a file called discover.txt. Put the text 'interference support ethics architecture identity' in it and copy it so there is also a surprise.txt with same content
+Echo '' >> discover.txt
+Cp -v discover.txt surprise.txt
+
+246: create a file called correspondence.txt and rename it so that it's called identity.txt instead. Hint: This should be done in 2 commands
+Touch correspondence.txt
+Mv correspondence.txt identity.txt
+
+247: create a directory salvation and move into the directory
+Mkdir salvation
+Cd salvation
+
+248: move one level up
+Cd ..
+
+249: output the full path you are on
+Pwd 
+
+250: output who the active user is
+Echo $USER
